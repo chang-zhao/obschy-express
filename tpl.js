@@ -41,7 +41,6 @@ exports.head = ( localiz, user, lang, langs ) => {
 	<title>` + localiz.title + `</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/bg` + leadingZero + bg + `.css" data-bg="` + bg + `">
 	<link rel="stylesheet" type="text/css" href="css/a.css">
 	<link rel="stylesheet" type="text/css" href="css/_icons.css">
 	<script type="text/javascript" src="js/main.js"></script>
@@ -72,7 +71,7 @@ exports.head = ( localiz, user, lang, langs ) => {
 		<li><label for="set-user-pref-bg" class="helped fa-image nowrap">`
 			+ localiz.userPref.wallpaper + `
 			<button class="minus fa-minus-square" aria-label="minus"></button>
-    		<input id="set-user-pref-bg" class="white note c666" aria-role="number" value="` + bg + `">
+    		<input id="set-user-pref-bg" class="white note c666" data-type="number" value="` + bg + `">
 			<button class="plus fa-plus-square" aria-label="plus"></button>
 			<div class="help wrap">` + localiz.userPref.wallpaperH + `</div></label></li>
 		<li>` + loginForm + `</li>
