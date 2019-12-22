@@ -1,6 +1,6 @@
 /**
  * Template stub for the Obschy.Ru web site.
- * Node.js + Express version
+ * Node.js + Express version (OLD, won't update)
  * @param localiz = json object with interface labels localized for different languages
  * @param user	= json object for the current user
  * @param lang	= json object for the current language
@@ -46,7 +46,7 @@ exports.head = ( localiz, user, lang, langs ) => {
 	<link rel="stylesheet" type="text/css" href="css/_icons.css">
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
-<body>
+<body class="bg20" data-bg="20">
 <div id="head" class="head">`
 
 	// The 'head' div inner HTML
