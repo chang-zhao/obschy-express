@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Node Server",
+  "main": "server.js",
+  "dependencies": {
+    "connect-redis": "^4.0.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "ioredis": "^4.14.1",
+    "mongodb": "^3.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chang-zhao/obschy-express.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "Chang Zhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chang-zhao/obschy-express/issues"
+  },
+  "homepage": "https://github.com/chang-zhao/obschy-express#readme"
+}
