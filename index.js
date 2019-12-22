@@ -149,7 +149,7 @@ app.get('/set-user-pref-lang=:lang', /* async */ (req, res) => {
 	res.end(ht[1]);
 })
 
-app.listen(8080, () => console.log('Node.js app listening on port 8080. ' + now_hm ))
+app.listen(8080, () => console.log('Node.js app listening on port 8080. ' + hlp.hhmm ))
 
 //==========================================================
 }
