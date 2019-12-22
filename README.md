@@ -8,4 +8,4 @@ I tried to learn how to to write in server-side javascript (Node.js + Express), 
 
 It's just for historical purposes, or in case I will need to go back from Koa.js to Express.
 
-I don't plan to ever update this repo.
+There may be errors, not sure I care. I don't plan to ever update this repo.
