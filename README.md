@@ -1,6 +1,8 @@
 # obschy-express
 
-An example of navigation header in Node.js + Express
+An example of navigation header written in Node.js + Express + MongoDB for data + Redis for sessions.
+
+Supports changing UI preferences and display language (via AJAX calls).
 
 I tried to learn how to to write in server-side javascript (Node.js + Express), and hence created this app.
 
