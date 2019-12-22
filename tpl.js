@@ -10,8 +10,7 @@
  */
 // Document Headings & Header div
 exports.head = ( localiz, user, lang, langs ) => {
-	const	bg = user.bg,
-		leadingZero = (bg < 10)? '0' : ''
+	const	bg = user.bg
 	var	options = '', selected
 	langs.forEach(e => {
 		if (e[0] === lang) selected = 'selected'
