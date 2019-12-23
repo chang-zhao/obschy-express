@@ -35,7 +35,7 @@ exports.head = ( localiz, user, lang, langs ) => {
 
 	// The Header
 
-	 head[0] = `<!DOCTYPE html><html>
+	 head[0] = `<!DOCTYPE html><html class="bg`+bg+`">
 <head>
 	<title>` + localiz.title + `</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -44,7 +44,7 @@ exports.head = ( localiz, user, lang, langs ) => {
 	<link rel="stylesheet" type="text/css" href="css/_icons.css">
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
-<body class="bg20" data-bg="20">
+<body class="bg`+bg+`" data-bg="`+bg+`">
 <div id="head" class="head">`
 
 	// The 'head' div inner HTML
