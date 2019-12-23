@@ -317,9 +317,9 @@ input {
     border-color: bisque;
 }
 .fa .minus {
-    height: 1em;
-    width: 1em;
-	padding: 0;
+	height: 1.6em;
+	width: 1.8em;
+	padding: 0 4px 0 0;
 	margin: 0;
 	vertical-align: middle;
 	border: 1px solid sienna;
@@ -329,14 +329,14 @@ input {
 	border-bottom-left-radius: 12em 6em;
 	box-shadow: 0 0 2px sienna inset;
 	background-color: seashell;
-    background-size: cover;
+	background-size: cover;
 	background-origin: border-box;
 	background-position: center;
 }
 .fa .plus {
-    height: 1em;
-    width: 1em;
-	padding: 0;
+	height: 1.6em;
+	width: 1.8em;
+	padding: 0 0 0 4px;
 	margin: 0;
 	vertical-align: middle;
 	border: 1px solid sienna;
@@ -346,9 +346,9 @@ input {
 	border-bottom-left-radius: 1em;
 	box-shadow: 0 0 2px sienna inset;
 	background-color: seashell;
-    background-size: cover;
-    background-origin: border-box;
-    background-position: center;
+	background-size: cover;
+	background-origin: border-box;
+	background-position: center;
 }
 select {
 	margin: 0 1em;
