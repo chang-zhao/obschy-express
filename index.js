@@ -131,7 +131,7 @@ app.post('/', async (req, res) => {
 	}
 })
 
-app.get('/set-user-pref-bg=:bg', /* async */ (req, res) => {
+app.post('/set-user-pref-bg=:bg', /* async */ (req, res) => {
 	var bg = parseInt(req.params.bg, 10)
 	if (isNaN(bg)) bg = req.session.user.bg
 //	else if (bg !== req.session.user.bg) d.update('user', 'pref', where, {bg: bg})
@@ -140,7 +140,7 @@ app.get('/set-user-pref-bg=:bg', /* async */ (req, res) => {
 	res.end(bg.toString())
 })
 
-app.get('/set-user-pref-lang=:lang', /* async */ (req, res) => {
+app.post('/set-user-pref-lang=:lang', /* async */ (req, res) => {
 	var lang = req.params.lang
 //	d.update('user', 'pref', where, {lang: lang})
 	req.session.lang = lang
