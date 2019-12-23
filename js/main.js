@@ -84,7 +84,7 @@ document.addEventListener('input', function(e) {
 		return
     case  'set-user-pref-lang':
 		e.stopImmediatePropagation();
-		ajax(divHead, 'html', '/'+ e.target.id +'='+ e.target.value, 'GET', '', docTitle)
+		ajax(divHead, 'html', '/'+ e.target.id +'='+ e.target.value, 'POST', '', docTitle)
 		return
     default:
 		console.log(e.target)
@@ -136,7 +136,7 @@ function updateBgNum() {
 	document.querySelector('html').className = bgClass
 	document.querySelector('body').className = bgClass
 	bgInput.value = bodyBgNum
-	ajax(bgInput, 'value', '/'+ bgInput.id +'='+ bodyBgNum)
+	ajax(bgInput, 'value', '/'+ bgInput.id +'='+ bodyBgNum, 'POST')
 }
 
 function numberControl(aButton, add) {
